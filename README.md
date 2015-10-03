@@ -1,6 +1,8 @@
 yungboy
 =======
 
+![screenshot](https://raw.githubusercontent.com/anqurvanillapy/yungboy/master/screenshot.png)
+
 **YungBoy** is a simple Python library and set of utilities for GBA
 game development.
 
@@ -19,11 +21,13 @@ A Look Under The Hood
 from yungboy import YungBoy
 
 game = YungBoy('example')
-game.run()
+game.create()
 ```
 
 Prerequisites
 -------------
+
+- `gcc-arm-none-eabi`
 
 Installation
 ------------
@@ -40,4 +44,4 @@ Support
 License
 -------
 
-MIT
+MIT.
